@@ -4,8 +4,8 @@ from matplotlib import pyplot as plt
 import sys
 import csv
 
-# This script generates a graph that graphs battery health vs. battery usage on a scatter plot, drawing a line of best
-# fit if applicable. The first argument should be a CSV file containing a daily report of battery health, and the second
+# This script generates a graph that graphs battery health vs. battery usage on a line plot.
+# The first argument should be a CSV file containing a daily report of battery health, and the second
 # CSV file containing a report of minute-by-minute battery charge (this is used to determine when the battery is in use)
 # Format should be as follows:
 #
